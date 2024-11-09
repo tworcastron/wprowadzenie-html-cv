@@ -1,0 +1,84 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: sans-serif;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 50px;
+    padding: 0;
+    color: #000;
+    background-color: #fff;
+    font-size: 18px;
+}
+a {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+a:hover {
+    background-color: #3d3d3d;
+}
+h2 {
+    font-size: 32px
+}
+.text-color {
+    color: #fcda4f;
+}
+.header {
+    text-align: right;
+    padding-top: 40px;
+    padding-right: 30px;
+}
+.header-description {
+    color: grey;
+    z-index: 2;
+    position: relative;
+}
+.header-image {
+    position: relative;
+    top: -180px;
+    margin-bottom: -120px;
+    left: 20px;
+    width: 40%;
+}
+.header-mask {
+    background-color: #fcda4f;
+    position: absolute;
+    z-index: -1;
+    top: -50px;
+    left: 30%;
+    width: 95%;
+    height: 95%;
+}
+.section {
+    margin: 15px 20px;
+    padding: 20px 40px;
+    border-top: 2px solid #c2bcb7;
+}
+.section-about {
+    border: 0;
+    padding-top: 120px;
+    margin-top: -280px;
+    background-color: #fcda4f;
+    color: #000;
+}
+.skills {
+    margin: 0 60px;
+    background-color: #fcda4f;
+}
+.table {
+    width: 100%;
+}
+.table td, .table th {
+    border: 1px dashed #000000;
+}
+.table tr td, .table tr th {
+    padding: 10px;
+    text-align: center;
+}
